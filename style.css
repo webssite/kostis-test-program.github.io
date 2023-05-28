@@ -1,0 +1,41 @@
+body {
+    background-color: #353535;
+}
+
+.navbar {
+    background-color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.10);
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.download-btn {
+    width: 140px;
+    height: 60px;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50, -50);
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.download-btn:hover {
+    background-color: RoyalBlue;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
